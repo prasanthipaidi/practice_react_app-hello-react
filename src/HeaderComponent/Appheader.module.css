@@ -1,0 +1,59 @@
+.header {
+    display:flex;
+    padding-top:20px;
+}
+.appamp {
+    font-weight:bold;
+    padding:0px 10px 0px 30px;
+    font-size:25px;
+}
+.appamp:hover {
+    color:gainsboro;
+}
+.middleheader {
+    display:flex;
+}
+.button {   
+    margin-left:200px;
+    padding:10px;
+    color:blue;
+    border:1px solid blue;
+    background-color: white;
+    border-radius:10px;
+    width:100px;
+
+}
+.button:hover {
+    color:white;
+    background-color: blue;
+    cursor:pointer;
+}
+.home {
+    padding:0px 30px 0px 200px;
+}
+.demo { 
+    padding:0px 70px 0px 20px;
+    position:relative;
+}
+.blocks {
+    padding:0px 100px 0px 0px;
+    margin-right:100px;
+    position:relative;
+}
+.demo:hover .demolist,.blocks:hover .blockslist{
+    display:block;
+    cursor:pointer;
+    background-color: whitesmoke;
+}
+.demolist,.blockslist {
+    display:none;
+    list-style-type:none;
+    position:absolute;
+    z-index:1;
+}
+.list {
+    padding:5px;
+    border:1px solid whitesmoke;
+}
+
+

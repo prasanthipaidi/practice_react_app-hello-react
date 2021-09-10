@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+.countsDataDisplay {
+   float:left;
+   margin:60px;
+}
+.count {
+    font-size:50px;
+    font-weight:bold;
+    padding:10px;
+}
+.text {
+    font-size:25px;
+}
