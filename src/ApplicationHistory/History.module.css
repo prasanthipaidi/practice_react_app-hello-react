@@ -1,0 +1,139 @@
+.loremHistory {
+    background-color:#f3f6f7;
+    font-family: 'Work Sans',sans-serif;
+    padding-bottom:100px;
+}
+.TeamHistory {
+    font-size:40px;
+    margin-top:40px;
+    padding-top:70px;
+    padding-left:10px;
+}
+.loremipsum {
+    display:flex;
+    font-size:1.3rem;
+    line-height:1.5;
+    padding-left:10px;
+}
+.appUsers {
+    display:flex;
+    flex-wrap:wrap; 
+    margin-top:100px;
+}
+.appSupportUsers {
+    width:300px;
+    margin:10px;
+    padding:20px;
+    box-shadow:2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    position:relative;
+}
+.appDescription {
+    font-size:15px;
+    color:#767676;
+}
+.appSupportPerson {
+    font-size:20px;
+    margin-bottom:5px;
+    margin-top:40px;
+
+}
+.websiteButton {
+    margin-top:10px;
+    padding:10px 15px;
+    border-radius:8px;
+    border:1px solid white;
+    box-shadow:1px 1px white;
+    font-size:15px;
+}
+
+.websiteButton:hover {
+    background-color:black;
+    color:white;
+}
+.userImage {
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:-29%;
+    left:8%;
+}
+.opinionText {
+    font-size:20px;
+    margin-top:100px;
+    text-align:center;
+}
+.contactText {
+    font-size:40px;
+    text-align:center;
+}
+
+@media (max-width: 767px) {
+    .loremHistory {
+        background-color:#f3f6f7;
+        font-family: 'Work Sans',sans-serif;
+        padding-bottom:100px;
+    }
+    .TeamHistory {
+        font-size:30px;
+        margin-top:40px;
+        padding-top:70px;
+        padding-left:10px;
+    }
+    .loremipsum {
+        display:flex;
+        font-size:15px;
+        line-height:1.5;
+        padding-left:10px;
+    }
+    .appUsers {
+        display:flex;
+        flex-wrap:wrap; 
+        margin-top:100px;
+    }
+    .appSupportUsers {
+        width:300px;
+        margin:100px;
+        padding:20px;
+        box-shadow:2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+        position:relative;
+    }
+    .appDescription {
+        font-size:15px;
+        color:#767676;
+    }
+    .appSupportPerson {
+        font-size:20px;
+        margin-bottom:5px;
+        margin-top:40px;
+    
+    }
+    .websiteButton {
+        margin-top:10px;
+        padding:10px 15px;
+        border-radius:8px;
+        border:1px solid white;
+        box-shadow:1px 1px white;
+        font-size:15px;
+    }
+    
+    .websiteButton:hover {
+        background-color:black;
+        color:white;
+    }
+    .userImage {
+        width:100px;
+        height:100px;
+        position:absolute;
+        top:-29%;
+        left:8%;
+    }
+    .opinionText {
+        font-size:15px;
+        margin-top:100px;
+        text-align:center;
+    }
+    .contactText {
+        font-size:20px;
+        text-align:center;
+    } 
+}

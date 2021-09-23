@@ -1,6 +1,15 @@
 import Appheader from './HeaderComponent/Appheader';
 import HealthTrackerImage from './ImageComponent/HealthTrackerImage';
 import CountUser from './CountAppComponent/CountUser';
+import ActivityGoals from './ActivityGoals/Activitytext';
+import AboutApplicationText from './AboutApplication/AboutApplicationText';
+import ApplicationUses from './ApplicationBenefits/ApplicationUses';
+import ApplicationImages from './ApplicationImages/ApplicationImages';
+import ApplicationPlans from './ApplicationPlans/ApplicationPlans';
+import Feedback from './ApplicationFeedback/Feedback';
+import ApplicationHistory from './ApplicationHistory/ApplicationHistory';
+import FeedbackInput from './FeedbackInput/FeedbackInput';
+import FooterContent from './FooterContent/FooterContent';
 import './App.css';
 function App() {
   const countsData=[
@@ -24,6 +33,15 @@ function App() {
    <Appheader/>
    <HealthTrackerImage/> 
    <CountUser cntData={countsData}></CountUser>
+   <ActivityGoals/>
+   <AboutApplicationText/>
+   <ApplicationUses/>
+   <ApplicationImages/>
+   <ApplicationPlans/>
+   <Feedback/>
+   <ApplicationHistory/>
+   <FeedbackInput/>
+   <FooterContent/>
    </div>
   );
 }

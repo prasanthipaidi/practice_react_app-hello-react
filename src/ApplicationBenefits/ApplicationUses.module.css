@@ -1,0 +1,61 @@
+.ApplicationBenefits {
+    display:flex;
+    margin-top:70px;
+    flex-wrap: wrap;
+}
+.applicationBenefitsIndividual {
+    flex:33.3%;
+    margin-left:none;
+}
+.ApplicationPoints {
+    width:200px;
+    margin:50px;
+}
+
+.ApplicationBenefitsImage {
+    width:150px;
+    height:250px;
+    margin:50px;
+}
+.Uses {
+    font-size:20px;
+    font-weight:bold;
+}
+
+.UsesPara {
+    font-size:16px;
+    color:gray;
+}
+
+@media (max-width: 767px) {
+    .ApplicationBenefits {
+        display:flex;
+        margin-top:70px;
+        flex-wrap: wrap;
+    }
+    .applicationBenefitsIndividual {
+        flex:100%;
+        margin-left:150px;
+    }
+    
+    .ApplicationPoints {
+        width:200px;
+        margin:30px;
+    }
+    
+    .ApplicationBenefitsImage {
+        width:150px;
+        height:250px;
+        margin:30px;
+    }
+    .Uses {
+        font-size:20px;
+        font-weight:bold;
+    }
+    
+    .UsesPara {
+        font-size:16px;
+        color:gray;
+    }
+
+}

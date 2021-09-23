@@ -1,7 +1,7 @@
 .backgroundimage {
     background-image:url('./mbr-10.jpg');
     height:520px;
-    margin-top:20px; 
+    margin-top:79px; 
     position:relative;
 }
 .backgroundtext{
@@ -38,4 +38,52 @@
     border:2px solid green;
     margin:5px;
     font-size:20px;
+}
+
+@media (max-width: 767px) {
+
+    .backgroundimage {
+        background-image:url('./mbr-10.jpg');
+        height:520px;
+        margin-top:79px; 
+        position:relative;
+    }
+    .backgroundtext{
+        font-size:20px; 
+        position:absolute;
+        top:20%;
+        left:30%;
+    }
+    .healthtracker {
+        font-size:30px;
+        color:white;
+        position:absolute;
+        top:35%;
+        left:30%;
+    }
+    .inputSearch {
+        position:absolute;
+        top:60%;
+        left:25%;   
+    }
+    .inputEmail {
+        width:250px;
+        height:70px;
+        border-radius:8px;
+        border:2px solid green;
+        font-size:20px;
+        margin-left:10px;
+
+    }
+    .button {
+        width:250px;
+        height:70px;
+        border-radius:8px;
+        color:white;
+        background-color:green;
+        border:2px solid green;
+        margin:10px 10px;
+        font-size:20px;
+    }
+
 }

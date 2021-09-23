@@ -13,3 +13,35 @@
 .text {
     font-size:25px;
 }
+
+.countsDataDisplay::after {
+    clear:both;
+    content:'';
+    display:table;
+}
+
+@media (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+    }
+    .countsDataDisplay {
+       float:none;
+       margin:60px;
+       text-align: center;
+    }
+    .count {
+        font-size:30px;
+        font-weight:bold;
+        padding:10px;
+    }
+    .text {
+        font-size:20px;
+    }
+    
+    .countsDataDisplay::after {
+        clear:both;
+        content:'';
+        display:table;
+    }
+
+}

@@ -1,0 +1,33 @@
+.application {
+    font-size:50px;
+}
+
+.coaching {
+    font-size:25px;
+    color:gray;
+}
+.applicationText {
+    text-align: center;
+    margin-top:800px;
+    font-family:'Work Sans',sans-serif;
+    line-height:0.5;
+}
+
+@media (max-width: 767px) {
+
+    .application {
+        font-size:30px;
+    }
+    
+    .coaching {
+        font-size:15px;
+        color:gray;
+    }
+    .applicationText {
+        text-align: center;
+        margin-top:100px;
+        font-family:'Work Sans',sans-serif;
+        line-height:0.5;
+    }
+
+}
