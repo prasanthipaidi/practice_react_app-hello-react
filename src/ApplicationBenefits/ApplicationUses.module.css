@@ -39,12 +39,13 @@
     }
     
     .ApplicationPoints {
-        width:200px;
-        margin:30px;
+        width:50%;
+        margin:auto;
+        margin-left:50px;
     }
     
     .ApplicationBenefitsImage {
-        width:150px;
+        width:70%;
         height:250px;
         margin:30px;
     }

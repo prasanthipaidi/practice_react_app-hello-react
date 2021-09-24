@@ -33,7 +33,7 @@
     
     .activityheader {
         font-size:25px;
-        margin-left:30px;
+        text-align:center;
 
     }
     
@@ -41,15 +41,15 @@
         color:#403838;
         font-size:15px;
         line-height:1.5;
-        width:300px;
-        margin-left:100px;
+        width:50%;
+        margin:auto;
     }
     
     .imageActivity {
-        width:350px;
-        height:400px;
+        width:50%;
+        margin-left:150px;
+        height:auto;
         float:none;
-        margin-left:100px;
         margin-top:80px;
     }
     

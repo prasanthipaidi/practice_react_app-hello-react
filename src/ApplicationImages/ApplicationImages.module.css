@@ -23,9 +23,9 @@
     }
     
     .Appimg {
-        width:393px;
-        height:200px;
-        margin:100px;
+        width:50%;
+        height:auto;
+        margin:60px 180px;
     }
     
     .appimgText {
