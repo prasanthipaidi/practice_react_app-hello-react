@@ -1,0 +1,15 @@
+.profileDetails {
+    position:fixed;
+    margin:0px;
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start:0px;
+}
+.profileLinkDtls {
+    padding:30px;
+    border:1px solid gray;
+}
+.linkDtls {
+    text-decoration: none;
+}

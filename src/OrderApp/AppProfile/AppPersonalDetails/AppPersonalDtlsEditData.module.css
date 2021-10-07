@@ -1,0 +1,8 @@
+.userProfile {
+    position:relative;
+    top:50%;
+    left:40%;
+}
+.userName,.pwd {
+    margin:30px;
+}

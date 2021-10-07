@@ -1,0 +1,11 @@
+.displayNickName {
+    width:30%;
+    height:40px;
+    background-color:gainsboro;
+    padding-top:20px;
+    position:absolute;
+    border-radius: 7px;
+    border:1px solid black;
+    left:40%;
+    top:35%;
+}

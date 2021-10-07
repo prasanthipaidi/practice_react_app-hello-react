@@ -1,0 +1,24 @@
+.addressMain {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+}
+.addressOutline {
+    border:1px solid black;
+    position:relative;
+    width:30%;
+    height:150px;
+    margin-top:50px;
+    margin-left:10px;    
+}
+.addAddress {
+    position:absolute;
+    top:40%;
+    left:40%;
+}
+.removeButton {
+    position:absolute;
+    top:60%;
+    left:40%;
+}

@@ -1,0 +1,45 @@
+.appHead {
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    background-color:white;
+    padding-top:20px;
+    background-color:lightcoral;
+}
+.appImg {
+    width:60px;
+    height:60px;
+}
+.headerData {
+    font-weight:bold;
+    font-size:30px;
+    color:gold;
+}
+.login {
+    padding:8px 35px;
+    color:#6278df;
+    border:2px solid #6278df;
+    background-color: white;
+    border-radius:6px;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration:none;
+    margin:10px;
+}
+.signup {
+    padding:8px 30px;
+    color:#6278df;
+    border:2px solid #6278df;
+    background-color: white;
+    border-radius:6px;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration:none;
+    margin:20px;    
+}
+
+.login:hover,.signup:hover {
+    color:white;
+    background-color: blue;
+    cursor:pointer;
+}

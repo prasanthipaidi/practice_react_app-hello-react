@@ -1,0 +1,36 @@
+.addCardDtls {
+    position:relative;
+    top:50%;
+    left:40%;
+    margin-top:50px;
+}
+.inputAddCard {
+    width:30%;
+    height:40px;
+    background-color:gainsboro;
+    padding-top:20px;
+    border-radius: 7px;
+    border:1px solid black;
+}
+.cardDetails {
+    position:absolute;  
+    top:120%;
+    width:500px;
+}   
+.cardInputDetails {
+    width:170px;
+    height:40px;
+    margin:5px;
+    position:relative;  
+}
+.displayNickName {
+    width:30%;
+    height:40px;
+    background-color:gainsboro;
+    padding-top:20px;
+    position:absolute;
+    border-radius: 7px;
+    border:1px solid black;
+    left:40%;
+    top:35%;
+}
